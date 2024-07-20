@@ -1,4 +1,5 @@
-# Imaginary CTF 2024 BF challenge of forensics
+# Imaginary CTF 2024 challenge named "BF" of Reversing Category
+# https://2024.imaginaryctf.org/
 
 import re
 
