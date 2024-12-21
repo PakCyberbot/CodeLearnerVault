@@ -27,6 +27,7 @@ def main():
 
     # Open the FIFO pipe
     try:
+        # my_pipe file content: d500c5285f590a3abf00345e42901270f90288cb84677e89107e1b1a58ec1e96
         fd = os.open("my_pipe", os.O_RDONLY)
     except OSError:
         print("Failed to open FIFO for reading", file=sys.stderr)
